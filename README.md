@@ -1,5 +1,7 @@
 Сделай бекап старого конфига, если он есть и если он нужен. Конфиг находится тут: `~/.config/nvim`
 
+Это вариант конфига, который я ставлю на сервер.
+
 Первый запуск конфига может быть долгим. Не прерывай этот процесс, пока не появится меню плагин манагера.
 
 Надо скачать:
@@ -14,15 +16,7 @@
 
 Установить этот конфиг на Linux или Mac можно так:
 ```sh
-git clone https://github.com/buliway/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
-```
-Для винды через `cmd.exe` так:
-```sh
-git clone https://github.com/buliway/kickstart.nvim.git "%localappdata%\nvim"
-```
-Для винды через `powershell.exe` так:
-```sh
-git clone https://github.com/buliway/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
+git clone --branch server --single-branch --depth 1 https://github.com/Buliway/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 # kickstart.nvim
