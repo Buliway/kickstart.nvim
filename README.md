@@ -1,3 +1,17 @@
+Сделай бекап старого конфига, если он есть и если он нужен. Конфиг находится тут: `~/.config/nvim`
+Установить этот конфиг на Linux или Mac можно так:
+```sh
+git clone https://github.com/buliway/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+```
+Для винды через `cmd.exe` так:
+```sh
+git clone https://github.com/buliway/kickstart.nvim.git "%localappdata%\nvim"
+```
+Для винды через `powershell.exe` так:
+```sh
+git clone https://github.com/buliway/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
+```
+
 # kickstart.nvim
 
 ## Introduction
